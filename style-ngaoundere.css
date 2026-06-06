@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f7fafc;
+    color: #2d3748;
+    line-height: 1.6;
+    padding: 30px 6%;
+}
+
+.menu-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    margin-bottom: 40px;
+}
+
+.menu-navigation .site-title {
+    font-weight: bold;
+    color: #1a365d;
+    font-size: 1.2rem;
+}
+
+.menu-navigation .back-link {
+    text-decoration: none;
+    color: #2b6cb0;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.menu-navigation .back-link:hover {
+    color: #1a365d;
+}
+
+.logo-ngao-centrer {
+    display: block;
+    margin: 0 auto 25px auto;
+    max-height: 140px;
+    object-fit: contain;
+}
+
+h1 {
+    text-align: center;
+    color: #1a365d;
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+}
+
+.presentation-sous-titre {
+    text-align: center;
+    color: #718096;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.galerie-campus {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.galerie-campus img {
+    flex: 1;
+    min-width: 280px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.bloc-info {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+    border-left: 5px solid #2b6cb0;
+    margin-bottom: 25px;
+}
+
+.bloc-info h2 {
+    color: #2b6cb0;
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+}
+
+.liste-missions {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.liste-missions li {
+    margin-bottom: 8px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.liste-missions li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #38a169;
+    font-weight: bold;
+}
+
+.titre-section {
+    color: #1a365d;
+    margin: 40px 0 15px 0;
+    font-size: 1.6rem;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 5px;
+}
+
+.titre-sous-section {
+    color: #4a5568;
+    margin: 20px 0 10px 0;
+    font-size: 1.05rem;
+    font-weight: 600;
+}
+
+.grille-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.badge {
+    background-color: #ffffff;
+    color: #2b6cb0;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.badge-partenaire {
+    background-color: #edf2f7;
+    color: #4a5568;
+    border-color: #cbd5e0;
+}
+
+.footer-ngao {
+    text-align: center;
+    margin-top: 60px;
+    padding: 25px;
+    background-color: #1a202c;
+    color: #a0aec0;
+    border-radius: 8px;
+    font-size: 0.85rem;
+}

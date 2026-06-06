@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f7fafc;
+    color: #2d3748;
+    line-height: 1.6;
+    padding: 40px 8%;
+}
+
+/* Menu ou Liens du haut */
+.menu-navigation {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    align-items: center;
+    background: #ffffff;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0,04);
+    margin-bottom: 40px;
+}
+
+.menu-navigation a {
+    text-decoration: none;
+    color: #2b6cb0;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.2s ease;
+}
+
+.menu-navigation a:hover {
+    text-decoration: none;
+    color: #1a365d;
+}
+.menu-navigation .site-title {
+    font-weight: bold;
+    color: #1a365d;
+    font-size: 1.2rem;
+}
+
+.menu-navigation .back-link {
+    text-decoration: none;
+    color: #2b6cb0;
+    font-weight: 600;
+    transition: color 0.2s;
+    margin-left: auto;
+}
+
+.menu-navigation .back-link:hover {
+    color: #1a365d;
+}
+
+/* Centrer le grand Logo */
+.logo-centrer {
+    display: block;
+    margin: 0 auto 30px auto;
+    max-height: 150px;
+    object-fit: contain;
+}
+
+/* Titres */
+h1 {
+    text-align: center;
+    color: #1a365d;
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+}
+
+.presentation-sous-titre {
+    text-align: center;
+    color: #718096;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+/* ALIGNER LES IMAGES CÔTE À CÔTE */
+.conteneur-images {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.conteneur-images img {
+    flex: 1;
+    min-width: 200px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+}
+
+/* Blocs d'informations encadrés */
+.section-info {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+    border-left: 5px solid #2b6cb0;
+    margin-bottom: 25px;
+}
+
+.section-info h2 {
+    color: #2b6cb0;
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+}
+
+/* Structure en badges pour les filières et partenaires */
+.liste-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.badge-item {
+    background-color: #ffffff;
+    color: #2b6cb0;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.badge-partenaire {
+    background-color: #edf2f7;
+    color: #4a5568;
+    border-color: #cbd5e0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 60px;
+    padding: 25px;
+    color: #a0aec0;
+    font-size: 0.85rem;
+    border-radius: 8px;
+    background-color: #1a202c;
+}
